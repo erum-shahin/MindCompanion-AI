@@ -42,10 +42,6 @@ This project uses **Google's Gemini 1.5 Flash** model to provide instant, 24/7 a
     ```bash
     python main.py
     ```
-
-## 📸 Screenshots
-*(Add a screenshot of your chat interface here. It makes the repo look 10x better!)*
-
 ## 🔮 Future Scope
 * Integration with Google Calendar to schedule "Self-Care Blocks."
 * Voice-enabled support for hands-free venting.
@@ -55,7 +51,7 @@ This project uses **Google's Gemini 1.5 Flash** model to provide instant, 24/7 a
 MindCompanion is an AI assistant, not a doctor or licensed therapist. It is not a replacement for professional medical advice or crisis intervention.
 
 ## 👥 Team
-* **Erum Shahin Ansari** - Lead Develpoer
 * **Ashika Kumari** 
+* **Erum Shahin Ansari**
 * **Riya Roy**
 * **Ankita Kumari Jha**
