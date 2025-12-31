@@ -1,57 +1,50 @@
-# 🧠 MindCompanion: AI Mental Health Assistant
+# 💙 MindCompanion - AI Mental Health Support
 
-> **A supportive, empathetic, and non-judgmental AI companion designed to help university students manage stress and burnout.**
+**MindCompanion** is an intelligent mental health chatbot designed to provide immediate, empathetic support to students. unlike standard chatbots, it uses **Google's Gemini 2.5 Flash** to perform real-time sentiment analysis, calculating a "Stress Score" and detecting emotional states (Mood) as the user types.
 
-![Project Status](https://img.shields.io/badge/Status-Prototype-blue)
-![Tech Stack](https://img.shields.io/badge/Powered%20By-Google%20Gemini-orange)
+> **Built for the TechSprint by GDGoc Academy Of Technology Hackathon 2025**
 
-## 📖 Overview
-**MindCompanion** is a mental health chatbot built to address the growing "support gap" in universities. While 75% of mental health issues begin by age 24, many students hesitate to seek help due to stigma or long wait times. 
-
-This project uses **Google's Gemini 1.5 Flash** model to provide instant, 24/7 accessible support using Cognitive Behavioral Therapy (CBT) techniques. It is designed to be a "first line of defense," offering a safe space to vent and learn coping strategies.
-
-## ✨ Key Features
-* **Empathetic Conversation:** Tuned specifically for student stressors (exams, social isolation, deadlines).
-* **Structured Mood Analysis:** The AI outputs JSON data to track "Intensity Scores" (1-10) and detect user moods.
-* **Safety First:** Built-in crisis detection protocols that redirect users to professional helplines if self-harm is mentioned.
-* **Actionable Advice:** Suggests bite-sized activities (e.g., "5-4-3-2-1 Grounding," "Box Breathing").
+## 🚀 Key Features
+* **Real-time Analysis:** Detects user mood (e.g., Anxious, Calm, Overwhelmed) instantly.
+* **Clinical Stress Scoring:** Assigns a stress score (1-10) to every interaction to help identify high-risk situations.
+* **Advanced AI Engine:** Powered by Google's **Gemini 2.5 Flash / 2.0** models for nuanced understanding.
+* **Privacy-First:** No data is stored permanently; sessions are ephemeral.
 
 ## 🛠️ Tech Stack
-* **LLM:** Google Gemini 1.5 Flash (via Google AI Studio)
-* **Prompt Engineering:** Custom "System Instructions" for persona definition and safety guardrails.
-* **Backend:** Python / Node.js (Update this based on what you actually used)
-* **Frontend:** (Mention if you used Streamlit, HTML/CSS, Flutter, or just Console)
+* **Frontend:** Streamlit (Python)
+* **Backend:** Google Gemini API
+* **Language:** Python 3.10+
 
-## 🚀 How to Run
+## ⚙️ Installation & Setup
 
-### Prerequisites
-* A Google AI Studio API Key.
-
-### Installation
-1.  **Clone the repo**
+1.  **Clone the Repository**
     ```bash
-    git clone [https://github.com/your-username/MindCompanion-AI.git](https://github.com/your-username/MindCompanion-AI.git)
+    git clone [https://github.com/YOUR_USERNAME/MindCompanion.git](https://github.com/YOUR_USERNAME/MindCompanion.git)
+    cd MindCompanion
     ```
-2.  **Install dependencies**
+
+2.  **Install Dependencies**
     ```bash
     pip install -r requirements.txt
     ```
-3.  **Set up API Key**
-    * Create a `.env` file and add your key: `GOOGLE_API_KEY=your_key_here`
-4.  **Run the application**
-    ```bash
-    python main.py
+
+3.  **Set up API Keys**
+    * Create a file named `.env` in the main folder.
+    * Add your Google API key:
+    ```text
+    GOOGLE_API_KEY=your_api_key_here
     ```
-## 🔮 Future Scope
-* Integration with Google Calendar to schedule "Self-Care Blocks."
-* Voice-enabled support for hands-free venting.
-* Multilingual support for international students.
 
-## ⚠️ Disclaimer
-MindCompanion is an AI assistant, not a doctor or licensed therapist. It is not a replacement for professional medical advice or crisis intervention.
+4.  **Run the App**
+    ```bash
+    streamlit run web.py
+    ```
 
-## 👥 Team
-* **Ashika Kumari** 
-* **Erum Shahin Ansari**
-* **Riya Roy**
-* **Ankita Kumari Jha**
+## 📸 Usage
+Once the app is running, simply type how you are feeling. The sidebar will update in real-time to show your **Current Mood** and **Stress Level** based on the AI's analysis of your text.
+
+## 🤝 Contributing
+This is a hackathon project, but feel free to fork and improve!
+
+---
+*Made with 💙 by Team AlgoRythm*
